@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #272727;
+}
+
+main{
+    display: flex;
+}
+
+p#wordmark{
+    color: #56B280;
+    font-weight: 600;
+    font-family: Poppins, Roboto, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+
+p#cart{
+    color: #56B280;
+}
+
+nav {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 10rem;
+}
+
+section#left-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .5rem 7rem 0rem 10rem;
+}
+
+section#right-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0rem 19rem 0rem 4rem;
+    gap: 1rem;
+}
+
+div#contact-shipping-adress {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+div#steps {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: center;
+    gap: .9rem;
+}
+
+p.each-step {
+    font-weight: 500;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+p.next-step {
+    color: #616161;
+}
+
+
+img.arrows {
+    width: auto;
+    height: .7rem;
+}
+
+div.form {
+    padding: 3rem 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .6rem;
+}
+
+div.form#shipping{
+    padding: 0rem;
+}
+
+p.section-title{
+    font-size: 1.3rem;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+p#shipping-title{
+    padding: 0rem 0rem .5rem;
+}
+
+div#contact-account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 0rem .2   rem;
+}
+
+div#login {
+    display: flex;
+    justify-content: space-around;
+    gap: .3rem;
+    color: #898989;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+p#login-link{
+    color: #56B280;
+}
+
+p.box-text {
+    display: flex;
+    align-items: center;
+    border: .05rem solid #898989;
+    color: #898989;
+    background-color: #ffffff;
+    border-radius: .1rem;
+    padding: .5rem 1rem;
+    font-size: .9rem;
+
+}
+
+div.box-text {
+    padding: .3rem .6rem;
+    display: flex;
+    justify-content: space-between;
+    border: .05rem solid #898989;
+    color: #898989;
+    border-radius: .1rem;
+    font-size: .9rem;
+}
+
+div.inside-box-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.inside-box-text#Province-inside {
+    gap: 3.6rem;
+}
+
+div.inside-box-text#Country-inside {
+    gap: 23.8rem;
+}
+
+div.images-inside-box-text{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+div.images-inside-box-text img{
+    display: flex;
+    
+}
+
+img.arrow-down{
+    width: auto;
+    height: 0.4rem;
+}
+
+p.up-inside-box-text{
+    font-size: 0.6rem;
+    color: #616161;
+}
+
+div.check-text {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: .4rem;
+    font-size: 0.9rem;
+}
+
+div.row-form {
+    display: flex;
+    gap: .5rem;
+    justify-content: space-between;
+}
+
+div.row-form p{
+    width: 100%;
+}
+
+div.row-form div{
+    width: 100%;
+}
+
+div.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3.5rem;
+}
+
+
+a#back-button{
+    color: #56B280;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+button#shipping-button {
+    background-color: #56B280; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    padding: .7rem 1.5rem; /* Preenchimento interno do botão (topo/baixo, esquerda/direita) */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: .2rem; /* Cantos arredondados */
+    cursor: pointer; /* Cursor de mão ao passar o mouse sobre o botão */
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    padding: .5rem 3rem;
+}
+
+a#link-shipping{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Roboto, Helvetica, sans-serif;;
+}
+
+div#product-stats {
+    display: flex;
+    justify-content: flex-start;
+    gap: 4rem;
+    padding-bottom: 1.5rem;
+}
+
+img#product-image {
+    width: auto;
+    height: 7rem;
+}
+
+img#product-quantity{
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+}
+
+div#product-complete{
+    position: relative;
+}
+
+
+div#product-text {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+p#product-name{
+    font-family: Poppins, Roboto, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+p#big-price{
+    font-family: Poppins, Roboto, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #56B280;
+    font-size: 1.3rem;
+}
+
+div#coupon-code {
+    display: flex;
+    gap: .5rem;
+    justify-content: space-around;
+    padding: 0.5rem 0rem 0.5rem;
+}
+
+p.box-text#code {
+    width: 100%;
+}
+
+button#button-code {
+    background-color: #A8A8A8;
+    color: #ffffff;
+    padding: .6rem 1.5rem;
+    border: none;
+    border-radius: .2rem;
+    cursor: pointer;
+    white-space: nowrap;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+div.buying-lines{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+p#little-price{
+    font-weight: 600;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+div#subtotal-shipping{
+    padding: .2rem 0rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: .9rem;
+    color: #616161;
+}
+
+p#big-total{
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+p#total{
+    font-size: 0.9rem;
+    color: #616161;
+}
+
+p#shipping-next-step{
+    font-weight: 600;
+    color: #616161;
+}
+
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background: linear-gradient(to right, #ffffff 50%, #F2F2F2 50%);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
