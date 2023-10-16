@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Payment.css">
+    <title>Candleaf</title>
+</head>
+<body>
+    <div class="container">
+        <div class="section section-left">
+            <div class="h1-content">
+                <img src="images/AuthenticationIMGS/icon.png" alt="" id="h1-img">
+                <h1>Candleaf</h1>
+            </div>
+            <nav>
+                <ul id="header-links">
+                    <li>Cart</li>
+                    <li> > </li>
+                    <li>Details</li>
+                    <li> > </li>
+                    <li>Shipping</li>
+                    <li> > </li>
+                    <li id="nav-payment">Payment</li>
+                </ul>
+            </nav>
+            <div class="shipping-info">
+                <div class="shipping-contact">
+                    <p>Contact</p>
+                    <p>cp2front@fiap.com.br</p>
+                    <p>Edit</p>
+                </div>
+                <div class="shipping-ship-to">
+                    <p>Ship To</p>
+                    <p>Av Paulista, 1106, Bela Vista, São Paulo/SP</p>
+                    <p>Edit</p>
+                </div>
+                <div class="shipping-method">
+                    <p>Method</p>
+                    <p>Cartão de Crédito</p>
+                    <p>Edit</p>
+                </div>
+            </div>
+            <div class="payment-method">
+                <h2>Payment Method</h2>
+                <div class="payment-info">
+                    <div class="credit-card">
+                        <img src="images/PaymentIMGS/CreditCardFill.png" alt="">
+                        <p>Credit Card</p>
+                    </div>
+                    <div class="card-info">
+                        <input type="text" placeholder="Card Number" class="input input-card-number">
+                        <input type="text" placeholder="Holder Name" class="input input-holder-name">
+                        <input type="text" placeholder="Expiration (MM/YY)" class="input input-expiration">
+                        <input type="text" placeholder="CVV" class="input input-cvv">
+                    </div>
+                </div>
+            </div>
+            <div class="tax-info">
+                <h2>Tax Informations</h2>
+                <div class="tax-inputs">
+                    <input type="text" placeholder="VAT number (optional)" class="input">
+                    <input type="text" placeholder="PEC (optional)" class="input">
+                </div>
+            </div>
+            <div class="billing-address">
+                <h2>Billing Address</h2>
+                <div class="billing-info">
+                    <div class="info-address info-address-same">
+                        <input type="checkbox" class="round-checkbox">
+                        <p>Same as the shipping address</p>
+                    </div>
+                    <div class="info-address info-address-different">
+                        <input type="checkbox" class="round-checkbox">
+                        <p>Use a different address for billing</p>
+                    </div>
+                </div>
+            </div>
+            <div class="submit">
+                <a id="back-to-cart">Back to shipping</a>
+                <button id="go-to-shipping">Pay now</button>
+            </div>
+        </div>
+        <div class="section section-right">
+            <div class="img-price">
+                <div>
+                    <img src="images/AuthenticationIMGS/product-image.png" alt="">
+                </div>
+                <div class="description-price">
+                    <p id="candle-name">Spiced Mint Candleaf®</p>
+                    <p id="price">$ 9.99</p> 
+                </div>
+            </div>
+            <div class="coupon-code">
+                <input type="text" placeholder="Coupon code" class="input input-coupon">
+                <button id="coupon-btn">Add Code</button>
+            </div>
+            <div class="subtotal-shipping-price">
+                <div class="subtotal-price">
+                    <p>Subtotal</p>
+                    <p id="sub-price">$ 9.99</p>
+                </div>
+                <div class="shipping-price">
+                    <p>Shipping</p>
+                    <p>Free Shipping</p>
+                </div>
+            </div>
+            <div class="total">
+                <p>Total</p>
+                <p id="total-price">$ 9.99</p>    
+            </div>
+        </div>
+    </div>
+</body>
+</html>
